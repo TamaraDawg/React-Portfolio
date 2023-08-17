@@ -1,5 +1,6 @@
 import React from 'react'
 import Typical from 'react-typical'
+import "./Profile.css"
 export default function Profile() {
     return (
         <div className='profile-container'>
@@ -66,7 +67,7 @@ export default function Profile() {
                             Contact Me{" "}
                         </button>
                         <a href='TAMARA SFERCO RESUME.pdf' download='TAMARA SFERCO RESUME.pdf'>
-                            <button className='btn highlight-btn'> Get Resume</button>
+                            <button className='btn highlighted-btn'> Get Resume</button>
                         </a>
                     </div>
                 </div>
